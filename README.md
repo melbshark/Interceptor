@@ -1,7 +1,7 @@
 # Interceptor
 Android debugging area for silent sms detection
 
-Simple android logcat monitor to check if unique low level sms data to detect TYPE 0 silent sms etc.
+Simple android logcat monitor to check for unique low level sms data to detect TYPE 0 silent sms etc.
 
     Low Level Sms Debugger for catching stuff a Broadcast Receiver wont get.
 
@@ -28,7 +28,7 @@ Simple android logcat monitor to check if unique low level sms data to detect TY
 
 
 	Easy to modify this file if you can see the sms in the logcat -b radio
-	add the string to the array below exactly as printed and it should output the data.	
+	add the string to the array exactly as printed but without the value and it should output the data.	
 	
 	
-	I be suprised if this worked on other sony models but its something to work off.
+	I'd be suprised if this worked on other sony models but its something to work off.
